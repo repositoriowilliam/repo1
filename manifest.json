@@ -1,0 +1,33 @@
+{
+  "background_color": "#ffffff",
+  "description": "Fortune Tiger o Jogo do Tigre. Acesse o Link da Plataforma Oficial para Ganhar Dinheiro com Apostas Onlines nos Melhores Horários.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Jogo do Tigre",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Jogo do Tigre",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "categories": [
+    "entertainment",
+    "games",
+    "navigation"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://jogodotigre.com/assets/img/jogo-do-tigre-ico.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Jogo do Tigre",
+      "url": "https://jogodotigre.com/",
+      "description": "Site Oficial do Jogo do Tigre"
+    }
+  ],
+  "lang": "pt"
+}
