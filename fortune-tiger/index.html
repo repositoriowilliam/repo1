@@ -137,7 +137,27 @@ box-shadow: 0 0 0 12px #00dd0000
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="./assets/js/com.js"></script>
   
-  
+        <script type="text/javascript">
+	document.addEventListener("mouseleave", function(e){
+		// Redireciona o usuário na intenção de sair da página (Desktop)
+    	if( e.clientY < 0 )
+    		{
+         		window.location.href = 'https://playpix.com/affiliates/?btag=1006188_l204632';
+    		}
+		}, false);
+
+		// Redireciona o usuário ao clicar no botão de voltar (Mobile)
+		var back_link = 'https://playpix.com/affiliates/?btag=1006188_l204632';
+
+		history.pushState({},"",location.href);
+	    history.pushState({},"",location.href);
+
+	    window.onpopstate = function(){
+	        setTimeout(function () {
+	        	location.href = back_link;
+	        },1);
+	    };
+</script>
   
   </body>
 </html>
