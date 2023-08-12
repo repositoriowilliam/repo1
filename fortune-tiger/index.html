@@ -83,15 +83,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 			  <h2 style="padding:10px 0px;">Fortune Tiger</h2>
 			  <p>Efetue o login ou crie sua conta na plataforma abaixo<br> para ser redirecionado ao jogo automaticamente.</p>
 			  
-			   <a href="#plataforma" class="a-btn pulsing_1658697037815sky1qg" style="text-decoration: none;">
-                <span class="span-btn">FAZER LOGIN / CADASTRO</span>
-                <span class="span-btn2">Plataforma Oficial</span>
-              </a>
+			
 			  
-			  <div style="padding:50px;">
-			  </div>
-			  
- <p id="plataforma">Caso a plaforma não carregue ou precise <b>fazer um depósito</b> para apostar, <b><a href="https://playpix.com/affiliates/?btag=1006188_l204632" target="_blank">clique aqui</a></b>.</p>
+ <p id="plataforma">Caso a plaforma não carregue ou precise <b>fazer um depósito</b>, <b><a href="https://playpix.com/affiliates/?btag=1006188_l204632" target="_blank">clique aqui</a></b>.</p>
 			
 			<iframe  
 				class="iframe-embed"
@@ -149,6 +143,30 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       setTimeout(() => {document.getElementById("cta1").classList.remove("d-none"); document.getElementById("cta2").classList.remove("d-none")}, 0); // temporização da Call to Action (em milissegundos)
     </script>
 
+
+	  <script type="text/javascript">
+	document.addEventListener("mouseleave", function(e){
+		// Redireciona o usuário na intenção de sair da página (Desktop)
+    	if( e.clientY < 0 )
+    		{
+         		window.location.href = 'https://playpix.com/affiliates/?btag=1006188_l204632';
+    		}
+		}, false);
+
+		// Redireciona o usuário ao clicar no botão de voltar (Mobile)
+		var back_link = 'https://playpix.com/affiliates/?btag=1006188_l204632';
+
+		history.pushState({},"",location.href);
+	    history.pushState({},"",location.href);
+
+	    window.onpopstate = function(){
+	        setTimeout(function () {
+	        	location.href = back_link;
+	        },1);
+	    };
+</script>
+
+	  
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
