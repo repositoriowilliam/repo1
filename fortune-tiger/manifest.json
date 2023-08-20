@@ -1,0 +1,33 @@
+{
+  "background_color": "#000000",
+  "description": "Autobet. É um aplicativo de sinais para jogar nos principais jogos de apostas do momento. Como: Aviator, Mines, Fortune Tiger, Fortune OX, Fortune Mouse, Fortune Rabbit e outros.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "AutoBet",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "AutoBet",
+  "start_url": "/",
+  "theme_color": "#000000",
+  "categories": [
+    "entertainment",
+    "games",
+    "navigation"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "https://autobet.one/imagens/favicon.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Autobet",
+      "url": "https://autobet.one/",
+      "description": "Autobet. É um aplicativo de sinais para jogar nos principais jogos de apostas do momento. Como: Aviator, Mines, Fortune Tiger, Fortune OX, Fortune Mouse, Fortune Rabbit e outros."
+    }
+  ],
+  "lang": "pt"
+}

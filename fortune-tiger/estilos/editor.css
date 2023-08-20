@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	background-color: #ebebeb !important;
+	overflow-x: hidden;
+	font-family: 'Roboto', sans-serif !important;
+}
+
+.container {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	text-align: center;
+}
+p {
+	max-width: 375px;
+	margin: 0 auto;
+	text-align: left;
+}
+h1 {
+	margin: 0 auto;
+	max-width: 375px;
+	margin-left: auto;
+	text-align: left;
+	margin-bottom: 40px;
+	color: #000;
+}
+h2 {
+	text-align: center !important;
+	margin: 0 auto;
+	margin-top: 60px !important;
+	margin-bottom: 40px !important;
+	max-width: 375px;
+	margin-left: auto;
+	text-align: left;
+	color: #000;
+}
+.ou {
+	font-weight: 500;
+	margin-top: 10px;
+	margin-bottom: -12px;
+}
+
+.config-options {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	margin-bottom: 20px;
+	max-width: 380px;
+	width: 100%;
+	text-align: left;
+}
+
+.config-options label {
+	font-weight: 400;
+}
+.config-options label:nth-child(2) {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.link-group label {
+	font-weight: 500 !important;
+	display: flex;
+	margin: 0 auto;
+	margin-bottom: 8px;
+	font-weight: 400;
+	max-width: 380px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.link-input {
+	max-width: 380px;
+	width: 100%;
+	padding: 5px;
+}
+
+.buttonSave {
+	display: flex;
+	justify-content: center;
+	padding: 10px 20px;
+	background-color: #165cc5;
+	color: #ffffff;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+	margin: 0 auto;
+	margin-top: 16px;
+	max-width: 380px;
+	width: 100%;
+}
+.buttonSave:hover {
+	background-color: #0a449b;
+}
+
+.accordion {
+	max-width: 380px;
+	margin: 0 auto;
+}
+p.bold {
+	font-weight: 500;
+}
+.list-link {
+	display: flex;
+	flex-direction: column;
+}
+.list-link a {
+	text-decoration: none;
+	color: #165cc5;
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: transparent;
+	border: 2px solid #165cc5;
+	margin-bottom: 5px;
+	border-radius: 8px;
+}
+.list-link a:hover {
+	color: #fff;
+	background-color: #165cc5;
+}
