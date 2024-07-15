@@ -1,26 +1,27 @@
 *{
     box-sizing: border-box;
 }
-body{
+body {
     margin: 0;
     padding: 0;
     width: 100vw;
     height: 100vh;
-    background: url("../img/back.webp");
+    background-image: url("../img/back.png");
+    background-image: image-set(url("../img/back.webp") type("image/webp"), url("../img/back.png") type("image/png"));
     background-repeat: no-repeat;
     background-position: 100% 0;
     background-size: cover;
     backdrop-filter: blur(5px);
     display: flex;
     justify-content: center;
-
 }
-.container{
-   
+
+.container {
     width: 430px;
     max-width: 600px;
     height: 100%;
-    background: url("../img/arena.webp");
+    background-image: url("../img/arena.png");
+    background-image: image-set(url("../img/arena.webp") type("image/webp"), url("../img/arena.png") type("image/png"));
     background-repeat: no-repeat;
     background-position: 100% 0;
     background-size: cover;
