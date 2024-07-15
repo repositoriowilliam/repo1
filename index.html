@@ -31,6 +31,20 @@
 	<link rel="manifest" href="https://jogodotigre.com/manifest.json"><script src="https://jogodotigre.com/sw.js" defer></script>
     
     <style>
+
+	      .fixed-text {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: transparent;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            color: transparent;
+            z-index: 1000; /* Certifique-se de que o texto fique acima de outros elementos */
+        }
+	    
 	.image-container {
         text-align: center;
 	padding: 50px 0px 0px 0px;
@@ -1109,7 +1123,7 @@
 
              
 
-		<p style="color: transparent;">Plataforma Dupoc.</p>
+		<p style="color: transparent;" class="fixed-text">Plataforma Dupoc.</p>
 
    
 
