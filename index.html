@@ -26,10 +26,13 @@
 	<link rel="manifest" href="https://jogodotigre.com/manifest.json"><script src="https://jogodotigre.com/sw.js" defer></script>
     
     <style>
-	      .image-container {
-            text-align: center;
-            margin-top: 50px;
+	.image-container {
+        text-align: center;
+        margin-top: 50px;
+	display: none;
         }
+
+	
         img {
             max-width: 204px;
             width: 100%;
@@ -1097,16 +1100,24 @@
 	
 
 
-			  <div class="image-container">
-    <a href="https://jogodotigre.com/plataforma" title="Dupoc - Plataforma, Games, Cassino.">
-        <picture>
-            <!-- Primeira opção: formato WebP -->
-            <source srcset="assets/img/bt01.webp" type="image/webp">
-            <!-- Fallback: formato PNG -->
-            <img src="assets/img/bt02.png" alt="Plataforma Dupoc" width="204px" height="50px">
-        </picture>
-    </a>
-</div>
+		  <div class="image-container">
+        <a href="https://jogodotigre.com/plataforma" title="Dupoc - Plataforma, Games, Cassino.">
+            <picture>
+                <!-- Primeira opção: formato WebP -->
+                <source srcset="assets/img/bt01.webp" type="image/webp">
+                <!-- Fallback: formato PNG -->
+                <img src="assets/img/bt02.png" alt="Plataforma Dupoc" width="204px" height="50px" loading="lazy">
+            </picture>
+        </a>
+    </div>
+
+    <script>
+        // Espera o carregamento completo da página
+        window.addEventListener('load', function() {
+            // Mostra a imagem após o carregamento completo
+            document.querySelector('.image-container').style.display = 'block';
+        });
+    </script>
 
 
 
